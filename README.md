@@ -23,7 +23,8 @@ The main goal of this project is to build a model that can help emergency worker
 
 - run.py: contains the visualization code and the connection with the web page.
 
-disaster_messages.csv, disaster_categories.csv contain sample messages (real messages that were sent during disaster events) and categories datasets in csv format.
+- disaster_messages.csv, disaster_categories.csv contain sample messages (real messages that were sent during disaster events) and categories datasets in csv format.
+
 - templates folder: This folder contains all of the files necessary to run and render the web app. 
 
 ## Instructions: 
