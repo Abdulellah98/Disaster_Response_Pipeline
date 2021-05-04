@@ -19,7 +19,7 @@ The main goal of this project is to build a model that can help emergency worker
 ## Files 
 - process_data.py: This code extracts data from both CSV files: messages.csv and categories.csv and creates an **SQLite database** containing a merged and cleaned version of  data.
 
-- train_classifier.py: This code takes the **SQLite database** produced by `process_data.py` as an input and uses the data to train and tune a **Machine Learning** model for categorizing messages. The output is a pickle file containing the fitted model. Test evaluation metrics are also printed as part of the training process.
+- train_classifier.py: This code takes the **SQLite database** produced by `process_data.py` as an input and uses the data to build a **Machine Learning** model for categorizing messages. The output is a pickle file containing the fitted model. Test evaluation metrics are also printed as part of the training process.
 
 - run.py: contains the visualization code and the connection with the web page.
 
